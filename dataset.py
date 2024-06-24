@@ -59,3 +59,4 @@ class ClassificationDataset(Dataset):
 def preprocess_urls(urls, tokenizer, max_length=128):
     tokenized_urls = [tokenizer.encode(url, add_special_tokens=True, truncation=True, max_length=max_length) for url in urls]
     return tokenized_urls
+#test
